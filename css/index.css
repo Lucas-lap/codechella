@@ -1,0 +1,74 @@
+.img__header {
+  background-image: url('../assets/welcome-bg.png');
+}
+
+#buy__ticket {
+  width: 100%;
+  line-height: 4.0rem;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 0.8rem 4.4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 2rem;
+  gap: 1.6rem;
+  box-shadow: 4px 4px black;
+
+  font-weight: 700;
+  font-size: 2.0rem;
+  margin-block: 2.4rem;
+}
+
+h3 {
+  margin-block: 4.0rem;
+  font-family: var(--font-secondary);
+  font-size: 4.8rem;
+  line-height: 6.24rem;
+  font-weight: 400;
+}
+
+.container__bands h4:nth-child(1) {
+  font-family: var(--font-primary);
+  font-size: 4.8rem;
+  line-height: 5.635rem;
+  font-weight: 800;
+  margin-bottom: 1.6rem;
+  padding-inline: 0.5rem;
+}
+
+h4 {
+  font-family: var(--font-primary);
+  font-size: 4rem;
+  line-height: 4.696rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+h5 {
+  font-family: var(--font-primary);
+  font-size: 3.2rem;
+  line-height: 3.757rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+h6 {
+  font-family: var(--font-primary);
+  font-size: 3.2rem;
+  line-height: 3.757rem;
+  font-weight: 300;
+  margin-bottom: 1.6rem;
+}
+
+.day__box {
+  background-color: var(--green-color);
+  padding: 1.6rem;
+  font-size: 2.8rem;
+  line-height: 4.16rem;
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  margin-inline: 1.15rem;
+  margin-bottom: 4.8rem;
+  margin-top: 8.0rem;
+}

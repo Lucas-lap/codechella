@@ -1,0 +1,48 @@
+.sectors_backgronud {
+  background-image: url('../assets/sectors-bg.png');
+}
+
+.wrapper {
+  margin-block: 3.2rem;
+}
+
+.square {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.subtitle {
+  padding-left: 3.2rem;
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.pink {
+  background-color: var(--pink);
+}
+
+.green-light {
+  background-color: var(--green-light);
+}
+
+.purpple {
+  background-color: var(--purpple);
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-block: 1.6rem;
+}
+
+.title {
+  font-family: var(--font-primary);
+  font-size: 2rem;
+  line-height: 4rem;
+  font-weight: 700;
+  margin-bottom: 2.8rem;
+  text-align: left;
+}

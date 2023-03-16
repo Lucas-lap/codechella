@@ -1,0 +1,52 @@
+.information__background {
+  background-image: url('../assets/informations-bg.png');
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper span,
+.wrapper p {
+  text-align: left;
+}
+
+#information__title {
+  font-family: var(--font-secondary);
+  line-height: 4.16rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding-inline: 2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 4.8rem;
+}
+
+.container__box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.question {
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  justify-content: space-between;
+  line-height: 3.757rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.answer {
+  background-color: var(--blue-light);
+  color: var(--black);
+  line-height: 4.0rem;
+  font-size: 2.0rem;
+  font-weight: 400;
+  padding: 1.6rem;
+}

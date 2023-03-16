@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticket</title>
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="/css/ticket.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="/">
+      <img src="/assets/codechella.svg" alt="">
+    </a>
+
+    <button>
+      <img src="/assets/menu-sandwich.svg" alt="">
+    </button>
+
+    <nav class="nav__menu">
+      <ul>
+        <li><a href="/page/experience.html" style="color: red">A Experiência</a></li>
+        <li><a href="/page/sectors.html" style="color: red">Mapa dos setores</a></li>
+        <li><a href="/page/information.html" style="color: red">Informações</a></li>
+        <li><a href="/page/ticket.html" style="color: red">Ingresso</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="ticket_background img__wrapper">
+      <h1>Seu ingresso está aqui!</h1>
+    </div>
+
+    <section class="container">
+      <form action="" style="display: flex; flex-direction: column;">
+        <label for="name">Nome Completo:</label>
+        <input type="text" name="name" id="name">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="ticket">Tipo de ingresso</label>
+        <select name="ticket" id="ticket">
+          <option value="value1">Tipo de ingresso</option>
+          <option value="value2">Tipo de ingresso</option>
+          <option value="value3">Tipo de ingresso</option>
+          <option value="value4">Tipo de ingresso</option>
+        </select>
+
+        <label for="date">Data de nascimento:</label>
+        <input type="date" name="date" id="date">
+
+        <button type="submit">
+          Avançar!
+          <img src="/assets/ticket-buttom.svg" alt="">
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <a href="/">
+        <img src="/assets/codechella.svg" alt="">
+      </a>
+
+      <div class="social__box">
+        <p>Acesse nossas redes:</p>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#">
+              <img src="/assets/icon/wpp.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/assets/icon/twitch.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/assets/icon/instagram.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/assets/icon/twitter.svg" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+  </footer>
+</body>
+
+</html>
